@@ -1,10 +1,14 @@
+/*
+*=require_tree .
+*=require_self
+*/
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body{
-
   background-color:#252839;
 }
 li{
@@ -31,9 +35,6 @@ li{
 .navbar-default .navbar-brand:hover{
   color:#f2b632;
 }
-.divider{
-  width:500px;
-}
 .brand a{
   font-family:"Roboto";
   font-size:25px;
@@ -50,19 +51,39 @@ li{
   margin-bottom:25px;
   color:white;
 }
+hr{
+  border-color:#f2b632;
+}
+.divider{
+  width:500px;
+}
+
 .def-button{
   font-family:"Open Sans";
-  background-color:#b5b5b7;
-  height:50px;
+  font-size:1.4em;
+  background-color:#b5b5b7; 
+  padding:20px;
   width:200px;
   border:none;
   display:block;
   margin:0 auto;
   border-radius:50px;
 }
-.button-anchors a{
-  text-decoration:none;
-}
 .def-button:hover{
   background-color:#f2b632; 
+}
+.resume-content{
+  margin:100px;
+  background-color:#677077;
+  font-family:"Roboto";
+  color:white;
+  padding:50px;
+  
+}
+
+.header-text{
+  font-family:"Roboto";
+}
+.resume-text{
+  font-family:"Open Sans";
 }
