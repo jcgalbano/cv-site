@@ -133,5 +133,34 @@ hr{
 .educ{
   flex: 1 1 900px;
 }
-.te{
+.project-item{
+  display:block;
+  font-size:0.7em;
+}
+.project-item:before{
+	content: "\e215";
+    font-family: 'Glyphicons Halflings';
+    font-size: 55px;
+    margin-right:10px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color:#f2b632;
+}
+.head-item{
+  display:block;
+  font-size:0.7em;
+}
+.head-item:before{
+	content: "\e211";
+    font-family: 'Glyphicons Halflings';
+    font-size: 55px;
+    margin-right:10px;
+    float: left;
+    margin-top: 4px;
+    margin-left: -17px;
+    color:#f2b632;
+} 
+.extra{
+  flex:1 1 450px;
 }
