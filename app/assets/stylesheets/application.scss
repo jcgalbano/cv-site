@@ -51,6 +51,9 @@ li{
   display:block;
   color:white;
 }
+.welcome-box{
+  padding:150px;
+}
 hr{
   border-color:#f2b632;
 }
@@ -162,5 +165,8 @@ hr{
     color:#f2b632;
 } 
 .extra{
+  flex:1 1 450px;
+}
+.comp{
   flex:1 1 450px;
 }
