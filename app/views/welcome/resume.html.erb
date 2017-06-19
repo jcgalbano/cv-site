@@ -5,14 +5,27 @@
 
 <ul class="cards container">
 
-  <li class="item">
-  <h2 class="header-text"> Head Description </h2>
-  <hr class="divider2">
-  <p class="resume-text"> 
- Lorem ipsum dolor sit amet, veri labores vix id, lucilius splendide cotidieque eos no. Ut saperet appellantur duo, no elitr soluta contentiones eos. Est diceret persequeris in. Eu sea adhuc lorem. An persius consulatu nec, ius dicat numquam dolores te. Eam feugiat maiorum id.Partem delicata pro id. Dicant epicurei ea pri. Vim eu error ponderum. Nibh debitis dissentiet eu nam, mel ne graecis instructior. Debet mediocrem et mel. Est impetus euripidis aliquando ad, quo an quod bonorum patrioque, cu labore legimus expetenda duo.
-  </p> 
+  <li class="primer item">
+  <h2 class="header-text"> Primer </h2>
+	<hr class="divider2">
+	<h4 class="resume-text"> 
+					Laboratory
+	</h4> 
+	<h5>
+					Computer Vision and Machine Intelligence Group (AI Lab)
+	</h5>
+	<br>
+	<h4 class="resume-text"> 
+					Internship(s)
+  </h4> 
+	<h5>
+					Aelogica Philippines, Inc.
+	</h5>
+	<p>
+		https://aelogica.com
+		Premier Ruby on Rails and mobile development company with operations in the Philippines.
 
-
+	</p>
   </li>
 
   <li class="educ item">
@@ -63,7 +76,7 @@
     
     <h4> Version Control </h4>
     <ul class="te-list">
-      <li class="te-item">git</li>
+      <li class="te-item">Git</li>
     </ul>
     <h4> Productivity Tools </h4>
     <ul class="te-list">
@@ -104,7 +117,7 @@
       
     </ul>
      <h4> Headships </h4>
-    <ul class="project-list">
+    <ul class="head-list">
       <li class="head-item">
         <h5>Innov School 6.0 (Innovation Workshop)</h5>
         <p>Event Head 2017</p>
@@ -130,20 +143,23 @@
  
   </li>
 
-  <li class="item">
+  <li class="affil item">
     <h2 class="header-text">Affiliations </h2>
     <hr class="divider2">
 
-    <ul class="project-list">
-      <li class="head-item">
-        <h5>UP Epsilon Chi Fraternity</h5>
+    <ul class="affil-list">
+      <li class="affil-item">
+	<%= image_tag "epchi.jpg", class:"logos"%>     
+	<h5>UP Epsilon Chi Fraternity</h5>
         <p style="font-weight:bold;font-size:0.9em;">Chairman of Finance and Assets</p>
       </li>
-       <li class="head-item">
+      <li class="affil-item">
+	<%= image_tag "upacm.jpg", class:"logos"%>     
         <h5>UP Association for Computing Machinery</h5>
         <p>Education Committee Member</p>
       </li>
-       <li class="head-item">
+      <li class="affil-item">
+	<%= image_tag "upcsi.png", class:"logos"%>     
         <h5>UP Center for Student Innovations</h5>
         <p>Innovation Committee Member</p>
       </li>
@@ -155,14 +171,28 @@
   <li class="comp item">
     <h2 class="header-text">Competitions</h2>
     <hr class="divider2">
-    <ul class="project-list">
-      <li class="head-item">
+		<ul class="comp-list">
+			<li class="comp-item">
+				<%= image_tag "dcs.jpg", class:"logos"%>
+				<strong>2nd Place</strong>			
+        <h5>Capstone Project Competition</h5>
+        <p>Project: Intelligent Bus Locator and Load Identifier Using a Raspberry Pi and Selected Modules</p>
+      </li>
+	
+			<li class="comp-item">
+				<%= image_tag "freelancer.jpg", class:"logos"%>     
         <h5>Hackzilla 2017 (Freelancer.com Hackathon)</h5>
         <p>App: Text and Speech to Sign Language Using Artificial Intelligence through Google's Cloud Speech API</p>
       </li>
-       <li class="head-item">
+			<li class="comp-item">
+				<%= image_tag "healthhacks.png", class:"logos"%>     
         <h5>Healthhacks 2017</h5>
         <p>App: Medical Contingency Planner</p>
+      </li>
+  			<li class="comp-item">
+				<%= image_tag "haxxor.png", class:"logos"%>     
+        <h5>UP ACM Haxxor</h5>
+        <p>Capture the Flag Hacking Tournament</p>
       </li>
       
     </ul>
