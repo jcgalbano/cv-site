@@ -1,0 +1,116 @@
+.resume-content{
+  display:block;
+  margin:0 auto;
+  background-color:#677077;
+  font-family:"Roboto";
+  color:white;
+  padding:50px;
+  margin-top:50px;
+}
+.header-text{
+  font-family:"Roboto";
+}
+.resume-text{
+  font-family:"Open Sans";
+}
+.cards{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+.cards .item{
+  display:inline-block;
+  color:#000;
+  background-color:white;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+  margin:30px;
+  padding:50px;
+}
+.cards .item  p{
+  font-size:1.1em;
+}
+.te-item{
+  display:block;
+  font-size:0.8em;
+}
+.te-item:before{
+  content: "\e162";
+  font-family: 'Glyphicons Halflings';
+  font-size: 13px;
+  margin-right:10px;
+  float: left;
+  margin-top: 4px;
+  margin-left: -17px;
+  color:#A239CA;
+}
+.te-list{
+  display:flex;
+}
+.te-item{
+    padding:20px;
+}
+.educ{
+  flex: 1 1 900px;
+}
+.project-item{
+  display:block;
+  font-size:0.8em;
+  padding:20px;
+}
+.project-list{
+  text-decoration:none;
+}
+.project-item:before{
+  content: "\e215";
+  font-family: 'Glyphicons Halflings';
+  font-size: 55px;
+  margin-right:10px; 
+  float: left;
+  margin-top: 4px;
+  margin-left: -17px;
+  color:#A239CA;
+}
+.head-item{
+  display:block;
+  font-size:0.8em;
+  padding:20px;
+}
+.head-item:before{
+  content: "\e211";
+  font-family: 'Glyphicons Halflings';
+  font-size: 55px;
+  margin-right:10px;
+  float: left;
+  margin-top: 4px;
+  margin-left: -17px;
+  color:#A239CA;
+}
+.primer{
+  flex: 1 1 800px;
+}
+.extra{
+  flex:1 1 450px;
+}
+.comp{
+  flex:1 1 450px;
+}
+.affil{
+  flex:1 1 450px;
+}
+.affil-list{
+  list-style:none;
+}
+.affil-item{
+  font-size:1em;
+}
+.comp-list{
+  list-style:none;
+}
+.comp-item{
+  font-size:0.9em;
+}
+.logos{
+  width:50px;
+  height:50px;
+  border-radius:100px;
+}
