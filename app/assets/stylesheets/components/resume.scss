@@ -31,30 +31,26 @@
 }
 .te-item{
   display:block;
-  font-size:0.8em;
+  font-size:1em;
 }
 .te-item:before{
   content: "\e162";
   font-family: 'Glyphicons Halflings';
   font-size: 13px;
-  margin-right:10px;
-  float: left;
-  margin-top: 4px;
-  margin-left: -17px;
   color:#A239CA;
 }
 .te-list{
   display:flex;
 }
 .te-item{
-    padding:20px;
+  padding:20px;
 }
 .educ{
   flex: 1 1 900px;
 }
 .project-item{
   display:block;
-  font-size:0.8em;
+  font-size:1em;
   padding:20px;
 }
 .project-list{
@@ -63,11 +59,9 @@
 .project-item:before{
   content: "\e215";
   font-family: 'Glyphicons Halflings';
-  font-size: 55px;
+  font-size: 25px;
   margin-right:10px; 
   float: left;
-  margin-top: 4px;
-  margin-left: -17px;
   color:#A239CA;
 }
 .head-item{
@@ -78,11 +72,9 @@
 .head-item:before{
   content: "\e211";
   font-family: 'Glyphicons Halflings';
-  font-size: 55px;
+  font-size: 25px;
   margin-right:10px;
   float: left;
-  margin-top: 4px;
-  margin-left: -17px;
   color:#A239CA;
 }
 .primer{
